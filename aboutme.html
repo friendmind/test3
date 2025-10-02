@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Me</title>
+        <link rel="icon" type="image/x-icon" href="../images/favicon3.ico">
+       <link rel="stylesheet" href="./style/style_main.css">
+    </head>
+    <body class="aboutme_body">
+        <main class="main_page">
+            <nav class="main_nav">
+                <a href="./index.html">Main</a>
+                <a href="./thoughts.html">Thoughts</a>
+                <a href="./aboutme.html">About Me</a>
+                <a href="./note.html">Note</a>
+                <a href="./extra.html">Extra</a>
+            </nav>
+            <h1 class="aboutme_head">About Me</h1>
+        </main>
+        <p class="all_par aboutme_par">
+            I hope you followed the instructions from the alert you got when clicking that next page button. If you did, 
+            WELCOME. This is day 3 of this project. I mentioned there would be interactive elements 
+            this time around and you have already seen and used some of them. You were already
+            introduced to links in the previous website. Now, I have upped my game and you are using buttons. 
+            But buttons are not the only interactive part of these pages. There are hidden interactive elements
+            that cannot be accessed through your phone, you must use your computer. There were a total of 5 (including
+            the navigation area and next page button) interactive elements on the
+            previous page. If you have not found them all and would like to, try hovering around with your mouse and 
+            see what you find. But before doing so, you can go ahead and browse this page.
+        </p>
+        <p class="all_par aboutme_par">
+            Now, this is the page I was the least happy with. Most of what I had written was removed.
+            Most of, if not all, that made it to the final version did not capture what I was trying
+            say. I swayed from things and overshared. Which was expected, but none the less embarrasing.
+            I will not be trying to get it right. I have said enough and this is a light-hearted
+            project. Not a redo of the previous one. This section will be a focused interactive section. So don't worry, 
+            there is no ranting here.
+
+            <br><br>
+            I've created a little game for you and I hope you have fun. So without further ado, enjoy the following:
+        </p>
+        <p class="all_par aboutme_par">
+           <strong>Instructions</strong>
+           <br> You said you understand Spanish. I have no idea if you are good at reading Spanish
+                but we're about to find out. I have meticously chosen some Spanish words that come 
+                from a game called Loteria that I used to play a lot as a kid. You're job is to guess
+                the right translation of each word in the table. I made this very simple. So I'm hoping 
+                you do good. If you don't, I'mma be a bit disappointed not gonna lie &#128514;
+        </p>
+      
+        <div class="div_aboutme2">
+        <table class="aboutme_table">
+            <caption>Sabes Español?</caption>
+            <tr>
+                <th class="th_main">Words</th>
+                <th class="th_main" colspan="3">Choices</th>
+            </tr>
+            <tr>
+                <th>La Dama</th>
+                <td><button class="all_buttons in_answer" onclick="alert('WRONG! TRY AGAIN.')">
+                The World</button></td>
+                <td><button class="all_buttons in_answer" onclick="alert('WRONG! TRY AGAIN.')">
+                The Musician</button></td>
+                <td><button class="all_buttons c_answer" onclick="alert('CORRECT! There is no prize. I\'m sorry&#128557;\n\n Or is there?&#128064;')">
+                The Lady</button></td>
+            </tr>
+              <tr>
+                <th>El Borracho</th>
+                <td><button class="all_buttons in_answer" onclick="alert('Wrong, again?')">
+                The Rooster</button></td>
+                <td><button class="all_buttons c_answer" onclick="alert('CORRECT!')">
+                The Drunk</button></td>
+                <td><button class="all_buttons in_answer" onclick="alert('TRY AGAIN.')">
+                The Musician</button></td>
+            </tr>
+               <tr>
+                <th>La Muerte</th>
+                <td><button class="all_buttons c_answer" onclick="alert('Wow, look at you! You got the answer right&#128514;')">
+                Death</button></td>
+                <td><button class="all_buttons in_answer" onclick="alert('Damn you\'re bad at this&#128514;')">
+                The Boot</button></td>
+                <td><button class="all_buttons in_answer" onclick="alert('WRONG!')">
+                The Parrot</button></td>
+            </tr>    
+        </table>
+        </div>
+        <p class="aboutme_par3">
+            How did you do? Did you do good? If you got 2 out of the 3 correct go ahead and claim your prize: <button class="all_buttons aboutme_all_buttons aboutme_play_button">CLAIM ME!!!</button> 
+        </p>
+        <p>
+            <span>Is the button not working? Here try this one: <button class="all_buttons aboutme_all_buttons aboutme_alert_button" onclick="alert('Nope. Este no es tu premio. Que crees que sera? Ah, creo que no me vas a entender. O quizas si. We\'ll see how smart you are. This is not the actual prize by the way. Try again&#128517;')">BOTON</button></span>
+            <br><br>
+            No? It must be this one then: <span id="aboutme_id_button"><button class="all_buttons aboutme_all_buttons aboutme_class_button" onclick="document.getElementById('aboutme_id_button').innerHTML ='Tricked you!'">BUTTON</button></span>
+            <br><br>
+            <strong>Okay, okay I'll stop messing with you.</strong> I just wanted to remind 
+            you before you click the <em>real</em> button: you are done for the 
+            day. You will have to wait until the following day to check out the Note page. I am 
+            expecting you to follow this rule. THERE ARE NO EXCEPTIONS. 
+            <br><br>
+            Now, you may proceed and claim your prize:
+            <a href="https://www.youtube.com/watch?v=pHqC0uoatag" 
+            target="_blank"><button class="all_buttons aboutme_all_buttons aboutme_real_button">REAL PRIZE!!</button></a>
+        </p>
+        <!-- I am having doubts about this. Why I am like this?-->
+
+        <footer>
+            
+        </footer>
+    </body>
+</html>
