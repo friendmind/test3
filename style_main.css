@@ -4,7 +4,7 @@
 
 /* Body */
 #main_page {
-    background-image: url('../images/sad_woman.jpg');
+    background-image: url('images/sad_woman.jpg');
     background-size: cover;
     
 }
@@ -14,7 +14,7 @@
 }
 
 .aboutme_body {
-    background-image: url('../images/pika_sad.jpg');
+    background-image: url('./images/pika_sad.jpg');
     background-size: cover;
 }
 
@@ -385,3 +385,4 @@ img {
 .extra_p_footer {
     font-size: 20px;
 }
+
