@@ -4,7 +4,7 @@
 
 /* Body */
 #main_page {
-    background-image: url('images/sad_woman.jpg');
+    background-image: url('./images/sad_woman.jpg');
     background-size: cover;
     
 }
@@ -19,13 +19,13 @@
 }
 
 .body_note {
-    background-image: url('../images/pumpkin.jpg');
+    background-image: url('./images/pumpkin.jpg');
     background-size: contain;
 }
 
 
 .extra_body {
-    background-image: url('../images/lioness.jpg');
+    background-image: url('./images/lioness.jpg');
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -36,7 +36,7 @@
 }
 
 .main_thoughts {
-    background-image: url(../images/snoopy_mic.jpg);
+    background-image: url(./images/snoopy_mic.jpg);
     background-repeat: repeat-x;
     background-size: contain;
     padding: 10px;
@@ -385,4 +385,3 @@ img {
 .extra_p_footer {
     font-size: 20px;
 }
-
